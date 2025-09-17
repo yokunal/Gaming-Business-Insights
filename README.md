@@ -9,7 +9,7 @@ Project Steps
 - **Goal** Prepare a clean workspace and install all required packages for seamless development and analysis.
 
 2. Obtain & Place the Dataset
-Add your user-level gaming data (e.g., your_dataset.csv) to the data/ directory.
+- **Add** your user-level gaming data (e.g., your_dataset.csv) to the data/ directory.
 
 If the dataset is confidential, provide instructions for users to add their own data file.
 

@@ -4,9 +4,9 @@ This project provides an end-to-end data analysis solution for understanding key
 
 Project Steps
 1. Set Up the Environment
-Tools Used: Jupyter Notebook, Python (3.8+), VS Code (recommended).
+- **Tools** Used: Jupyter Notebook, Python (3.8+), VS Code (recommended).
 
-Goal: Prepare a clean workspace and install all required packages for seamless development and analysis.
+-**Goal**: Prepare a clean workspace and install all required packages for seamless development and analysis.
 
 2. Obtain & Place the Dataset
 Add your user-level gaming data (e.g., your_dataset.csv) to the data/ directory.
@@ -66,8 +66,8 @@ Display and interpret coefficients and feature importances.
 After each major plot/KPI, summarize actionable insights and suggestions for growth or optimization in clear Markdown.
 
 Requirements
-Python 3.8+
 
+Python 3.8+
 Python Libraries:
 
 numpy

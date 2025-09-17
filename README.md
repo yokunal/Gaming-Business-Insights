@@ -6,7 +6,7 @@ Project Steps
 1. Set Up the Environment
 - **Tools** Used: Jupyter Notebook, Python (3.8+), VS Code (recommended).
 
--**Goal** Prepare a clean workspace and install all required packages for seamless development and analysis.
+- **Goal** Prepare a clean workspace and install all required packages for seamless development and analysis.
 
 2. Obtain & Place the Dataset
 Add your user-level gaming data (e.g., your_dataset.csv) to the data/ directory.

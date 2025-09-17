@@ -11,15 +11,15 @@ Project Steps
 2. Obtain & Place the Dataset
 - **Add** your user-level gaming data (e.g., your_dataset.csv) to the data/ directory.
 
-If the dataset is confidential, provide instructions for users to add their own data file.
+- **If** the dataset is confidential, provide instructions for users to add their own data file.
 
 3. Install Required Libraries & Load Data
-Required Libraries:
+- **Required** Libraries:
 
 ```bash
 pip install numpy pandas matplotlib seaborn squarify scikit-learn
 ```
-Loading the Data:
+-**Loading** the Data:
 
 python
 ```bash
@@ -29,58 +29,58 @@ df = pd.read_csv('data/your_dataset.csv')   # Update to your file path
 df.head()
 ```
 4. Explore the Data
-Goal: Understand the structure, missing values, and distributions.
+- **Goal**: Understand the structure, missing values, and distributions.
 
-Key Steps:
+- **Key** Steps:
 
-Use .info(), .describe(), and count plots for demographics/features.
+  - **Use** .info(), .describe(), and count plots for demographics/features.
 
-Visualize key columns (device, genre, gender, payment method) for quality assurance and context.
+  - **Visualize** key columns (device, genre, gender, payment method) for quality assurance and context.
 
 5. Clean the Data
-Remove duplicates and handle missing/null values.
+- **Remove** duplicates and handle missing/null values.
 
-Convert categorical fields to the appropriate types.
+- **Convert** categorical fields to the appropriate types.
 
-Prepare features for modeling (including one-hot encoding for regression).
+- **Prepare** features for modeling (including one-hot encoding for regression).
 
 6. Analyze User Segments & Revenue Patterns
-Distribution plots for demographics, device preference, payment methods, session counts.
+- **Distribution** plots for demographics, device preference, payment methods, session counts.
 
-Revenue and ARPU by device, genre, and age group.
+- **Revenue** and ARPU by device, genre, and age group.
 
-Time-to-first-purchase analysis by game genre.
+- **Time**-to-first-purchase analysis by game genre.
 
 7. Regression Modeling
-Goal: Quantify which features (demographic, behavioral, platform) predict higher user spend.
+- **Goal**: Quantify which features (demographic, behavioral, platform) predict higher user spend.
 
-Steps:
+- **Steps**:
 
-One-hot encode categorical variables.
+    - **One**-hot encode categorical variables.
 
-Train/test split and fit a linear regression.
+    - **Train**/test split and fit a linear regression.
 
-Display and interpret coefficients and feature importances.
+    - **Display** and interpret coefficients and feature importances.
 
 8. Business Insights and Recommendations
-After each major plot/KPI, summarize actionable insights and suggestions for growth or optimization in clear Markdown.
+  - **After** each major plot/KPI, summarize actionable insights and suggestions for growth or optimization in clear Markdown.
 
 Requirements
 
-Python 3.8+
-Python Libraries:
+  - **Python** 3.8+
+  - **Python** Libraries:
 
-numpy
-
-pandas
-
-matplotlib
-
-seaborn
-
-squarify
-
-scikit-learn
+    - **numpy**
+    
+    - **pandas**
+    
+    - **matplotlib**
+    
+    - **seaborn**
+    
+    - **squarify**
+    
+    - **scikit-learn**
 
 Getting Started
 Clone the repository:
@@ -104,26 +104,28 @@ text
 |-- main.ipynb                # Full analysis notebook
 |-- requirements.txt          # Python dependencies
 |-- README.md                 # Project readme and documentation
+
+
 Results and Insights
-Top Spending Segments: Older users (35–59) and users playing genres such as Battle Royale, Strategy, and MMORPG generate the highest average spend.
+- **Top** Spending Segments: Older users (35–59) and users playing genres such as Battle Royale, Strategy, and MMORPG generate the highest average spend.
 
-Engagement Patterns: iOS users spend more per capita, but Android dominates in volume.
+- **Engagement** Patterns: iOS users spend more per capita, but Android dominates in volume.
 
-Monetization Timing: Most first purchases occur within 15 days; timely offers yield best results.
+- **Monetization** Timing: Most first purchases occur within 15 days; timely offers yield best results.
 
-Actionable KPIs: Graphs and regression pinpoint the precise segments and behaviors driving revenue growth.
+- **Actionable** KPIs: Graphs and regression pinpoint the precise segments and behaviors driving revenue growth.
 
 Business Applications
-Data-driven support for user acquisition, retention, and monetization strategies
+- **Data-driven** support for user acquisition, retention, and monetization strategies
 
-Segmentation, targeting, and prioritizing high-value genres and platforms
+- **Segmentation**, targeting, and prioritizing high-value genres and platforms
 
-Optimizing onboarding and purchase timing windows
+- **Optimizing** onboarding and purchase timing windows
 
 License
 This project is MIT licensed.
 
 Acknowledgments
-Synthetic or anonymized gaming data for demonstration and learning purposes.
+- **Synthetic** or anonymized gaming data for demonstration and learning purposes.
 
-Inspired by real business and industry analytics use cases.
+- **Inspired** by real business and industry analytics use cases.

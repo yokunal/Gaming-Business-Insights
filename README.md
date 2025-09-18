@@ -131,5 +131,5 @@ Acknowledgments
 - **Inspired** by real business and industry analytics use cases.
 
 
-📫 Contact
+- **📫 Contact**
 For questions or collaboration, contact: jhakunal471@gmail.com
